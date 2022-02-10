@@ -6,6 +6,7 @@ body{
   background-image: url(background.jpg);
   background-size: 100%;
 }
+/* Stile Contenitore */
 .container {
   width: 65% ;
   background-color:rgba(0,0,0,0.5);
@@ -14,6 +15,7 @@ body{
   border-radius: 2%;
   margin-top: 2%;
 }
+/* Stile Titolo e Logo */
 #Titolo{
     text-align: center;
     color: rgb(0,225,0);
@@ -22,10 +24,12 @@ body{
   width: 21%;
   padding-top: 7%;
 }
+/* Stile  padre header e figlio h2 */
 header>h2{
     margin-block-end: 3px;
     margin-block-start:2px;
 }
+/* Stile degli Input e Form */
 nav{
   background-color: rgb(0,225,0);
   width: 86%;
@@ -44,7 +48,7 @@ margin-left: 5%;
   margin:auto;
   margin-top: 16px;
 }
-
+/* Stile Contenuto Principale e barra di carica */
 p{
   font-size: 12px;
   margin-left: 5%;
@@ -68,6 +72,7 @@ main>div{
   background-color:rgb(154 66 40);
   width: 11%;
 }
+/* Stile Footer */
 footer{
   margin: 60px 0px 0px 350px;
 }
